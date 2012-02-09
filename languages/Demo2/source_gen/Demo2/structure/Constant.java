@@ -5,6 +5,7 @@ package Demo2.structure;
 import jetbrains.mps.lang.core.structure.BaseConcept;
 import jetbrains.mps.lang.core.structure.INamedConcept;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.baseLanguage.structure.Expression;
 import java.util.Iterator;
 import jetbrains.mps.lang.core.structure.Attribute;
 import java.util.List;
@@ -18,7 +19,7 @@ public class Constant extends BaseConcept implements INamedConcept {
   public static final String SHORT_DESCRIPTION = "shortDescription";
   public static final String ALIAS = "alias";
   public static final String VIRTUAL_PACKAGE = "virtualPackage";
-  public static final String VALUE = "value";
+  public static final String INITIALIZER = "initializer";
   public static final String SMODEL_ATTRIBUTE = "smodelAttribute";
 
   public Constant(SNode node) {
@@ -57,12 +58,12 @@ public class Constant extends BaseConcept implements INamedConcept {
     this.setProperty(Constant.VIRTUAL_PACKAGE, value);
   }
 
-  public int getValue() {
-    return this.getIntegerProperty(Constant.VALUE);
+  public Expression getInitializer() {
+    return (Expression) this.getChild(Expression.class, Constant.INITIALIZER);
   }
 
-  public void setValue(int value) {
-    this.setIntegerProperty(Constant.VALUE, value);
+  public void setInitializer(Expression node) {
+    super.setChild(Constant.INITIALIZER, node);
   }
 
   public int getSmodelAttributesCount() {

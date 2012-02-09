@@ -26,8 +26,8 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1494751830318912549">
         <property name="text" nameId="tpc2.1073389577007" value=":" />
       </node>
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="1494751830318912551">
-        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nd9w.1494751830318912539" resolveInfo="value" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="2001769927721010659">
+        <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="nd9w.2001769927721010657" />
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="1494751830318912544" />
     </node>
