@@ -24,6 +24,10 @@
       <property name="name" nameId="tpck.1169194664001" value="map_Constants" />
       <property name="isFinal" nameId="tpee.1221565133444" value="true" />
     </node>
+    <node type="tpf8.TemplateDeclaration" typeId="tpf8.1092059087312" id="3990190717072400634">
+      <property name="name" nameId="tpck.1169194664001" value="reduce_ConstantReference" />
+      <link role="applicableConcept" roleId="tpf8.1168285871518" targetNodeId="nd9w.3990190717072393829" resolveInfo="ConstantReference" />
+    </node>
   </roots>
   <root id="1494751830319061783">
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="1494751830319065467">
@@ -34,6 +38,12 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="nd9w.1494751830318912537" resolveInfo="Constant" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="1494751830319061787">
         <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="1494751830319061784" resolveInfo="reduce_Constant" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="3990190717072400636">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="nd9w.3990190717072393829" resolveInfo="ConstantReference" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.TemplateDeclarationReference" typeId="tpf8.1168559333462" id="3990190717072400637">
+        <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="3990190717072400634" resolveInfo="reduce_ConstantReference" />
       </node>
     </node>
   </root>
@@ -163,6 +173,31 @@
                 <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
               </node>
               <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="1494751830319065483" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root id="3990190717072400634">
+    <node role="contentNode" roleId="tpf8.1092060348987" type="tpee.LocalStaticFieldReference" typeId="tpee.1172008963197" id="3990190717072400639">
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateFragment" typeId="tpf8.1095672379244" id="3990190717072400640" />
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="3990190717072400641">
+        <property name="linkRole" nameId="tpck.1757699476691236116" value="variableDeclaration" />
+        <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="3990190717072400644">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="3990190717072400645">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="3990190717072400646">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3990190717072400650">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="3990190717072400647">
+                  <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="3990190717072400648">
+                    <link role="link" roleId="tp25.1138056516764" targetNodeId="nd9w.3990190717072393830" />
+                  </node>
+                  <node role="operand" roleId="tpee.1197027771414" type="tpf8.TemplateFunctionParameter_sourceNode" typeId="tpf8.1167169188348" id="3990190717072400649" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="3990190717072400654">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

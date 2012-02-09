@@ -29,6 +29,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77fd19df-504e-46e9-9ee3-c2e565e3232d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/behavior/ConstantReference_BehaviorDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/constraints/ConstantReference_Constraints.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/editor/ConstantReference_Editor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/structure/ConstantReference.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/typesystem/TypesystemDescriptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/typesystem/typeof_ConstantReference_InferenceRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/typesystem/typeof_Constant_InferenceRule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/Language.class" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/Language.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/behavior/BehaviorAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/behavior/BehaviorAspectDescriptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/behavior/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/constraints/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/editor/Constant_Editor.class" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/editor/Constant_Editor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/editor/trace.info" />
@@ -37,9 +47,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/structure/Constant.class" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/structure/Constant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/structure/StructureAspectDescriptor.class" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/structure/StructureAspectDescriptor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/classes_gen/Demo2/typesystem/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/behavior/dependencies" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/behavior/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/behavior/generated" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/behavior/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/constraints/dependencies" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/constraints/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/constraints/generated" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/constraints/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/dependencies" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/editor/dependencies" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/editor/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/editor/generated" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/editor/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/generated" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/generated" />
@@ -47,21 +61,26 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/generator/template/main/generated" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/generator/template/main/generated" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/structure/dependencies" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/structure/dependencies" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/structure/generated" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/structure/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/typesystem/dependencies" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/typesystem/dependencies" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/typesystem/generated" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen.caches/Demo2/typesystem/generated" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/behavior/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/behavior/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/constraints/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/constraints/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/editor/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/editor/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/generator/template/main/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/generator/template/main/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/structure/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/structure/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/trace.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/typesystem/trace.info" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/typesystem/trace.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Demo2.iws" afterPath="$PROJECT_DIR$/Demo2.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/Demo2.mpl" afterPath="$PROJECT_DIR$/languages/Demo2/Demo2.mpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/Demo2/generator/template/main@generator.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/languageModels/constraints.mps" afterPath="$PROJECT_DIR$/languages/Demo2/languageModels/constraints.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/Demo2/languageModels/editor.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/Demo2/languageModels/structure.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/editor/Constant_Editor.java" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/editor/Constant_Editor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/Demo2/languageModels/typesystem.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/Language.java" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/behavior/BehaviorAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/behavior/BehaviorAspectDescriptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/generator/template/main/QueriesGenerated.java" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/generator/template/main/QueriesGenerated.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/structure/Constant.java" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/structure/Constant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/structure/StructureAspectDescriptor.java" afterPath="$PROJECT_DIR$/languages/Demo2/source_gen/Demo2/structure/StructureAspectDescriptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Demo2.sandbox/Demo2.sandbox.msd" afterPath="$PROJECT_DIR$/solutions/Demo2.sandbox/Demo2.sandbox.msd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solutions/Demo2.sandbox/models/sandbox.mps" afterPath="$PROJECT_DIR$/solutions/Demo2.sandbox/models/sandbox.mps" />
     </list>
     <ignored path="Demo2.iws" />
@@ -98,7 +117,17 @@
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
               <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack />
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="75" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                      <node model="r:ef9fd842-b350-4ad1-83c7-4b57a2c65330(Demo2.structure)" id="1494751830318912535" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
                 <folded />
               </memento>
               <inspectorMemento viewPositionX="0" viewPositionY="0">
@@ -118,11 +147,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="211" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="307" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                      <node model="r:14f29091-5afd-415d-935e-9da49ed11914(Demo2.sandbox.sandbox)" id="2001769927721048272" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:14f29091-5afd-415d-935e-9da49ed11914(Demo2.sandbox.sandbox)" id="3990190717072400603" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -136,19 +165,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constant" pinned="false" current="false" current-in-tab="false">
-        <entry file="mps://Demo2.structure/Constant">
+      <file leaf-file-name="D.sandbox.sandbox/text" pinned="false" current="false" current-in-tab="false">
+        <entry file="previewGenerated text for Demo2.sandbox.sandbox">
+          <provider selected="true" editor-type-id="GeneratedTextPreview">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="YourConstants" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Demo2.sandbox.sandbox/YourConstants">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+            <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="caretX" value="179" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="caretX" value="299" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node model="r:af985d7a-c914-498c-96e5-c3fe0f4471b1(Demo2.constraints)" id="2001769927721048297" />
+                      <node model="r:14f29091-5afd-415d-935e-9da49ed11914(Demo2.sandbox.sandbox)" id="3990190717072400331" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -158,7 +194,50 @@
                 <selectionStack />
                 <folded />
               </inspectorMemento>
-              <node nodeId="2001769927721048297" modelId="r:af985d7a-c914-498c-96e5-c3fe0f4471b1(Demo2.constraints)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantReference" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Demo2.structure/ConstantReference">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="83" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node model="r:8a83b4bb-5556-4799-a811-f71c11235499(Demo2.generator.template.main@generator)" id="3990190717072400634" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="3990190717072400634" modelId="r:8a83b4bb-5556-4799-a811-f71c11235499(Demo2.generator.template.main@generator)" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constant" pinned="false" current="false" current-in-tab="false">
+        <entry file="mps://Demo2.structure/Constant">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+              <memento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </memento>
+              <inspectorMemento viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <folded />
+              </inspectorMemento>
+              <node nodeId="1494751830318912537" modelId="r:ef9fd842-b350-4ad1-83c7-4b57a2c65330(Demo2.structure)" />
             </state>
           </provider>
         </entry>
@@ -207,7 +286,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectPluginManager">
@@ -487,7 +566,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -568,6 +646,24 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="typesystem" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Empty" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Demo2" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="structure" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -596,6 +692,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="FileSystem" />
     </panes>
   </component>
@@ -631,12 +728,12 @@
     <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.49761337" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.49284008" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Migration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Replacement" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Module Repository Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -649,13 +746,13 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.49761337" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5023866" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Stacktrace" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49761337" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.49284008" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -709,7 +806,17 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="75" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="TransactionalProperty_ueqr71_b0a" cellNumber="0" isInList="false">
+                  <node model="r:ef9fd842-b350-4ad1-83c7-4b57a2c65330(Demo2.structure)" id="1494751830318912535" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <folded />
           </memento>
           <inspectorMemento viewPositionX="0" viewPositionY="0">
@@ -748,14 +855,29 @@
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
           <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="1494751830318912537" modelId="r:ef9fd842-b350-4ad1-83c7-4b57a2c65330(Demo2.structure)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Demo2.sandbox.sandbox/YourConstants">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="179" />
+                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="299" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node model="r:af985d7a-c914-498c-96e5-c3fe0f4471b1(Demo2.constraints)" id="2001769927721048297" />
+                  <node model="r:14f29091-5afd-415d-935e-9da49ed11914(Demo2.sandbox.sandbox)" id="3990190717072400331" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -765,7 +887,31 @@
             <selectionStack />
             <folded />
           </inspectorMemento>
-          <node nodeId="2001769927721048297" modelId="r:af985d7a-c914-498c-96e5-c3fe0f4471b1(Demo2.constraints)" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://Demo2.structure/ConstantReference">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="83" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:8a83b4bb-5556-4799-a811-f71c11235499(Demo2.generator.template.main@generator)" id="3990190717072400634" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <folded />
+          </memento>
+          <inspectorMemento viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <folded />
+          </inspectorMemento>
+          <node nodeId="3990190717072400634" modelId="r:8a83b4bb-5556-4799-a811-f71c11235499(Demo2.generator.template.main@generator)" />
         </state>
       </provider>
     </entry>
@@ -776,11 +922,11 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretXRelative" value="0" />
-                <property name="caretX" value="211" />
+                <property name="caretXRelative" value="56" />
+                <property name="caretX" value="307" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                  <node model="r:14f29091-5afd-415d-935e-9da49ed11914(Demo2.sandbox.sandbox)" id="2001769927721048272" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node model="r:14f29091-5afd-415d-935e-9da49ed11914(Demo2.sandbox.sandbox)" id="3990190717072400603" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
