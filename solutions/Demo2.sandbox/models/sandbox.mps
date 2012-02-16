@@ -15,32 +15,38 @@
     </node>
   </roots>
   <root id="3990190717072352291">
-    <node role="constants" roleId="nd9w.1494751830318912552" type="nd9w.Constant" typeId="nd9w.1494751830318912537" id="3990190717072352292">
-      <property name="name" nameId="tpck.1169194664001" value="MAXIMUM" />
-      <node role="initializer" roleId="nd9w.2001769927721010657" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3990190717072354154">
-        <property name="value" nameId="tpee.1068580320021" value="100" />
-      </node>
-    </node>
     <node role="constants" roleId="nd9w.1494751830318912552" type="nd9w.Constant" typeId="nd9w.1494751830318912537" id="3990190717072352295">
       <property name="name" nameId="tpck.1169194664001" value="MINIMUM" />
-      <node role="initializer" roleId="nd9w.2001769927721010657" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3990190717072396542">
-        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3990190717072355987">
-          <property name="value" nameId="tpee.1068580320021" value="0" />
+      <node role="initializer" roleId="nd9w.2001769927721010657" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3990190717072355987">
+        <property name="value" nameId="tpee.1068580320021" value="0" />
+      </node>
+    </node>
+    <node role="constants" roleId="nd9w.1494751830318912552" type="nd9w.Constant" typeId="nd9w.1494751830318912537" id="3986994675334573795">
+      <property name="name" nameId="tpck.1169194664001" value="DEFAULT" />
+      <node role="initializer" roleId="nd9w.2001769927721010657" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3986994675334574566">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3986994675334574567">
+          <property name="value" nameId="tpee.1068580320021" value="50" />
         </node>
-        <node role="rightExpression" roleId="tpee.1081773367579" type="nd9w.ConstantReference" typeId="nd9w.3990190717072393829" id="3990190717072400599">
-          <link role="original" roleId="nd9w.3990190717072393830" targetNodeId="3990190717072352292" resolveInfo="MAXIMUM" />
+        <node role="leftExpression" roleId="tpee.1081773367580" type="nd9w.ConstantReference" typeId="nd9w.3990190717072393829" id="3986994675334578633">
+          <link role="original" roleId="nd9w.3990190717072393830" targetNodeId="3990190717072352295" resolveInfo="MINIMUM" />
+        </node>
+      </node>
+    </node>
+    <node role="constants" roleId="nd9w.1494751830318912552" type="nd9w.Constant" typeId="nd9w.1494751830318912537" id="3990190717072352292">
+      <property name="name" nameId="tpck.1169194664001" value="MAXIMUM" />
+      <node role="initializer" roleId="nd9w.2001769927721010657" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3986994675334573791">
+        <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3986994675334573794">
+          <property name="value" nameId="tpee.1068580320021" value="100" />
+        </node>
+        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="3986994675334578634">
+          <property name="value" nameId="tpee.1068580320021" value="0" />
         </node>
       </node>
     </node>
     <node role="constants" roleId="nd9w.1494751830318912552" type="nd9w.Constant" typeId="nd9w.1494751830318912537" id="3990190717072352298">
       <property name="name" nameId="tpck.1169194664001" value="NAME" />
-      <node role="initializer" roleId="nd9w.2001769927721010657" type="tpee.PlusExpression" typeId="tpee.1068581242875" id="3990190717072400600">
-        <node role="rightExpression" roleId="tpee.1081773367579" type="nd9w.ConstantReference" typeId="nd9w.3990190717072393829" id="3990190717072400603">
-          <link role="original" roleId="nd9w.3990190717072393830" targetNodeId="3990190717072352295" resolveInfo="MINIMUM" />
-        </node>
-        <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3990190717072352300">
-          <property name="value" nameId="tpee.1070475926801" value="MPS" />
-        </node>
+      <node role="initializer" roleId="nd9w.2001769927721010657" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="3990190717072352300">
+        <property name="value" nameId="tpee.1070475926801" value="MPS" />
       </node>
     </node>
     <node role="constants" roleId="nd9w.1494751830318912552" type="nd9w.Constant" typeId="nd9w.1494751830318912537" id="3990190717072352301">
