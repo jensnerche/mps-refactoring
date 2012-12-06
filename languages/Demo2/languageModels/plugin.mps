@@ -32,6 +32,7 @@
   <import index="tp1h" modelUID="r:00000000-0000-4000-0000-011c89590319(jetbrains.mps.lang.refactoring.structure)" version="1" implicit="yes" />
   <import index="jrbx" modelUID="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.project(MPS.Platform/jetbrains.mps.project@java_stub)" version="-1" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
+  <import index="tgbt" modelUID="r:c70ee934-afb1-4c02-b6a9-1c4d1908a792(jetbrains.mps.lang.plugin.standalone.structure)" version="1" implicit="yes" />
   <roots>
     <node type="tp4k.ActionGroupDeclaration" typeId="tp4k.1203087890642" id="3315479385153679751">
       <property name="name" nameId="tpck.1169194664001" value="MyGroup" />
@@ -44,6 +45,7 @@
     <node type="tp4k.KeymapChangesDeclaration" typeId="tp4k.1562714432501166197" id="1750490320623494033">
       <property name="name" nameId="tpck.1169194664001" value="MyKeymap" />
     </node>
+    <node type="tgbt.StandalonePluginDescriptor" typeId="tgbt.7520713872864775836" id="4835308565241587232" />
   </roots>
   <root id="3315479385153679751">
     <node role="modifier" roleId="tp4k.1204991552650" type="tp4k.ModificationStatement" typeId="tp4k.1203092361741" id="3315479385153679755">
@@ -174,5 +176,6 @@
       </node>
     </node>
   </root>
+  <root id="4835308565241587232" />
 </model>
 
