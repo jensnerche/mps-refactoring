@@ -35,15 +35,15 @@
   <import index="tgbt" modelUID="r:c70ee934-afb1-4c02-b6a9-1c4d1908a792(jetbrains.mps.lang.plugin.standalone.structure)" version="1" implicit="yes" />
   <roots>
     <node type="tp4k.ActionGroupDeclaration" typeId="tp4k.1203087890642" id="3315479385153679751">
-      <property name="name" nameId="tpck.1169194664001" value="MyGroup" />
+      <property name="name" nameId="tpck.1169194664001" value="RefactoringGroup" />
     </node>
     <node type="tp4k.ActionDeclaration" typeId="tp4k.1203071646776" id="3315479385153679756">
-      <property name="name" nameId="tpck.1169194664001" value="MyAction" />
+      <property name="name" nameId="tpck.1169194664001" value="ExtractConstantsAction" />
       <property name="caption" nameId="tp4k.1205250923097" value="Extract Constants" />
       <property name="outsideCommandExecution" nameId="tp4k.1211298967294" value="true" />
     </node>
     <node type="tp4k.KeymapChangesDeclaration" typeId="tp4k.1562714432501166197" id="1750490320623494033">
-      <property name="name" nameId="tpck.1169194664001" value="MyKeymap" />
+      <property name="name" nameId="tpck.1169194664001" value="ExtractConstantsKeymap" />
     </node>
     <node type="tgbt.StandalonePluginDescriptor" typeId="tgbt.7520713872864775836" id="4835308565241587232" />
   </roots>
@@ -53,7 +53,7 @@
     </node>
     <node role="contents" roleId="tp4k.1207145245948" type="tp4k.ElementListContents" typeId="tp4k.1207145163717" id="3315479385153679753">
       <node role="reference" roleId="tp4k.1207145201301" type="tp4k.ActionInstance" typeId="tp4k.1203088046679" id="3315479385153679891">
-        <link role="action" roleId="tp4k.1203088061055" targetNodeId="3315479385153679756" resolveInfo="MyAction" />
+        <link role="action" roleId="tp4k.1203088061055" targetNodeId="3315479385153679756" resolveInfo="ExtractConstantsAction" />
       </node>
     </node>
   </root>
@@ -169,7 +169,7 @@
   </root>
   <root id="1750490320623494033">
     <node role="shortcutChange" roleId="tp4k.1562714432501166199" type="tp4k.SimpleShortcutChange" typeId="tp4k.1562714432501166198" id="1750490320623494035">
-      <link role="action" roleId="tp4k.6193305307616734326" targetNodeId="3315479385153679756" resolveInfo="MyAction" />
+      <link role="action" roleId="tp4k.6193305307616734326" targetNodeId="3315479385153679756" resolveInfo="ExtractConstantsAction" />
       <node role="keystroke" roleId="tp4k.1562714432501166206" type="tp4k.KeyMapKeystroke" typeId="tp4k.1207318242772" id="1750490320623494036">
         <property name="modifiers" nameId="tp4k.1207318242773" value="ctrl+alt" />
         <property name="keycode" nameId="tp4k.1207318242774" value="VK_E" />
